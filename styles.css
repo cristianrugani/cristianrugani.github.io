@@ -1,0 +1,403 @@
+
+*{
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&family=Playfair+Display:wght@500&family=Signika+Negative&display=swap');
+
+body{
+    background-color: rgb(47, 67, 92);
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.titulo{
+    position: relative;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 50px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: rgb(6, 30, 59);
+    top: 80px;
+    left: 10px;
+    padding: 10px 5px 5px 10px;
+    border: 3px solid rgb(47, 67, 92);
+    border-radius: 10px;
+    margin: 5px;
+    width: 98%;
+    height: 80px;
+}
+
+.foto{
+    position: relative;
+    width: 20%;
+    left: 50px;
+    top: 100px;
+}
+
+/*---------MENU--------*/
+
+.menu{
+    position: relative;
+    font-size: 15px;
+    background-color: rgb(47, 67, 92);
+    text-align: center;
+    top: 50px;
+    left: 160px;
+    float: left;
+    width: 75%;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+
+/*-------ENLACES WEB------*/
+
+.enlacesWeb a{
+    padding: 0 10px;
+    color: rgb(0, 0, 0);
+}
+
+.enlacesWeb a:hover{
+    color: rgb(6, 0, 85);
+}
+
+/*------------------------------------------*/
+
+.informacionPersonal{
+    position: relative;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 25px;
+    text-align: left;
+    color:rgb(255, 255, 255);
+    background-color: rgb(6, 30, 59);
+    top: 100px;
+    left: 10px;
+    padding: 10px 5px 5px 10px;
+    border: 3px solid rgb(47, 67, 92);
+    border-radius: 10px;
+    margin: 5px;
+    width: 45%;
+    float: left;
+    height: 50px;
+}
+
+.educacion{
+    position: relative;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 30px;
+    text-align: left;
+    color:rgb(255, 255, 255);
+    background-color: rgb(6, 30, 59);
+    top: 100px;
+    left: 40px;
+    padding: 10px 5px 5px 10px;
+    border: 3px solid rgb(47, 67, 92);
+    border-radius: 10px;
+    margin: 5px;
+    width: 50%;
+    float: left;
+    height: 50px;
+}
+
+.experiencia{
+    position: relative;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 30px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: rgb(6, 30, 59);
+    top: 430px;
+    left: 5px;
+    padding: 10px 5px 5px 10px;
+    border: 3px solid rgb(47, 67, 92);
+    border-radius: 10px;
+    margin: 5px;
+    width: 98%;
+    height: 50px;
+    display: inline-flex;
+}
+
+.listaInformacionPersonal{
+    position: relative;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 14px;
+    text-align: left;
+    color:rgb(255, 255, 255);
+    top: 20px;
+    left: 5px;
+}
+
+.listaEducacion{
+    position: relative;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 12px;
+    text-align: justify;
+    top: 20px;
+    color:rgb(255, 255, 255); 
+    
+}
+
+.listaExperiencia{
+    position: relative;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 12px;
+    text-align: center;
+    top: 50px;
+    text-align: left;
+    color:rgb(255, 255, 255);
+    display: inline-block; 
+}
+
+.volverInicio{
+    position: relative;
+    background-color: rgb(6, 30, 59);
+    border-radius: 5px;
+    text-align: center;
+    top: 770px;
+    left: 10px;
+    width: 5%;
+}
+
+.volverInicio a{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+
+.volverInicio a:hover{
+    background-color: white;
+    color: black;
+}
+
+#demo{
+    position: relative;
+    background-color: rgb(47, 67, 92);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    top: 800px;
+    width: 20%;
+}
+
+#boton{
+    position: relative;
+    background-color: rgb(47, 67, 92);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    top: 800px;
+    width: 20%;
+}
+
+
+
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: rgb(104, 110, 117);
+    }
+    .titulo{
+        position: relative;
+        font-family: 'Gentium Book Basic', serif;
+        font-size: 25px;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        background-color: rgb(59, 6, 19);
+        top: 80px;
+        left: 10px;
+        padding: 10px 5px 5px 10px;
+        border: 3px solid rgb(59, 6, 19);
+        border-radius: 10px;
+        margin: 5px;
+        width: 90%;
+        height: 40px;
+    }
+    
+    .foto{
+        position: relative;
+        width: 5%;
+        left: 30px;
+        top: 130px;
+    }
+    
+    /*---------MENU--------*/
+    
+    .menu{
+        position: relative;
+        font-size: 8px;
+        background-color: rgb(59, 6, 19);
+        border: 3px solid rgb(59, 6, 19);
+        border-radius: 10px;
+        text-align: center;
+        top: 5px;
+        left: 20px;
+        float: left;
+        width: 85%;
+        height: 16px;
+    }
+    
+    .menu a{
+        text-decoration: none;
+        color: white;
+        padding: 0 5px;
+    }
+    
+    .menu a:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    /*-------ENLACES WEB------*/
+    
+    .enlacesWeb a{
+        padding: 0 10px;
+        color: rgb(0, 0, 0);
+    }
+    
+    .enlacesWeb a:hover{
+        color: rgb(6, 0, 85);
+    }
+
+    /*----------------------------------------*/
+    
+    .informacionPersonal{
+        position: relative;
+        font-family: 'Gentium Book Basic', serif;
+        font-size: 10px;
+        text-align: left;
+        color:rgb(255, 255, 255);
+        background-color: rgb(59, 6, 19);
+        top: 120px;
+        left: 10px;
+        padding: 10px 5px 5px 10px;
+        border: 3px solid rgb(59, 6, 19);
+        border-radius: 10px;
+        margin: 5px;
+        width: 40%;
+        float: left;
+        height: 30px;
+    }
+    
+    .educacion{
+        position: relative;
+        font-family: 'Gentium Book Basic', serif;
+        font-size: 10px;
+        text-align: left;
+        color:rgb(255, 255, 255);
+        background-color: rgb(59, 6, 19);
+        top: 120px;
+        left: 10px;
+        padding: 10px 5px 5px 10px;
+        border: 3px solid rgb(59, 6, 19);
+        border-radius: 10px;
+        margin: 5px;
+        width: 48%;
+        float: left;
+        height: 30px;
+    }
+    
+    .experiencia{
+        position: relative;
+        font-family: 'Gentium Book Basic', serif;
+        font-size: 10px;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        background-color: rgb(59, 6, 19);
+        top: 270px;
+        left: 10px;
+        padding: 10px 5px 5px 10px;
+        border: 3px solid rgb(59, 6, 19);
+        border-radius: 10px;
+        margin: 5px;
+        width: 90%;
+        height: 30px;
+        display: inline-flex;
+    }
+    
+    .listaInformacionPersonal{
+        position: relative;
+        font-family: 'Gentium Book Basic', serif;
+        font-size: 7px;
+        text-align: left;
+        color:rgb(255, 255, 255);
+        top: 20px;
+        left: 5px;
+    }
+    
+    .listaEducacion{
+        position: relative;
+        font-family: 'Gentium Book Basic', serif;
+        font-size: 6px;
+        text-align: left;
+        top: 20px;
+        color:rgb(255, 255, 255); 
+    }
+    
+    .listaExperiencia{
+        position: relative;
+        font-family: 'Gentium Book Basic', serif;
+        font-size: 6px;
+        top: 30px;
+        text-align: left;
+        color:rgb(255, 255, 255);
+        display: inline-block; 
+    }
+    
+    .volverInicio{
+        position: relative;
+        font-size: 10px;
+        background-color: rgb(59, 6, 19);
+        border-radius: 5px;
+        text-align: center;
+        top: 400px;
+        left: 15px;
+        width: 15%;
+    }
+    
+    .volverInicio a{
+        text-decoration: none;
+        color: white;
+        padding: 0 15px;
+    }
+    
+    .volverInicio a:hover{
+        background-color: white;
+        color: black;
+    }
+
+    #demo{
+        position: relative;
+        font-size: 10px;
+        background-color: rgb(104, 110, 117);
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+        left: 15px;
+        top: 410px;
+        width: 20%;
+    }
+    
+    #boton{
+        position: relative;
+        font-size: 10px;
+        background-color: rgb(104, 110, 117);
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+        left: 15px;
+        top: 410px;
+        width: 20%;
+    }
+}
